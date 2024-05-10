@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Meow-VFX_0: -7128829512736536355
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

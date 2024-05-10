@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cat-5-Sitting_0: 6326917729734865990
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
