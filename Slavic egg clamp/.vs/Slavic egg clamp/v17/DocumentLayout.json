@@ -3,36 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\MIKU\\My project\\first-CS-Game\\Slavic egg clamp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1DE469FE-50EC-6852-0EDE-AD9C8D778158}|Assembly-CSharp.csproj|C:\\Users\\MIKU\\My project\\first-CS-Game\\Slavic egg clamp\\assets\\scripts\\hero_i_can.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DE469FE-50EC-6852-0EDE-AD9C8D778158}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hero_i_can.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1DE469FE-50EC-6852-0EDE-AD9C8D778158}|Assembly-CSharp.csproj|c:\\users\\miku\\my project\\first-cs-game\\slavic egg clamp\\assets\\scripts\\switchcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DE469FE-50EC-6852-0EDE-AD9C8D778158}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\switchcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DE469FE-50EC-6852-0EDE-AD9C8D778158}|Assembly-CSharp.csproj|c:\\users\\miku\\my project\\first-cs-game\\slavic egg clamp\\assets\\scripts\\hero_input.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1DE469FE-50EC-6852-0EDE-AD9C8D778158}|Assembly-CSharp.csproj|C:\\Users\\MIKU\\My project\\first-CS-Game\\Slavic egg clamp\\assets\\scripts\\hero_input.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1DE469FE-50EC-6852-0EDE-AD9C8D778158}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hero_input.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DE469FE-50EC-6852-0EDE-AD9C8D778158}|Assembly-CSharp.csproj|C:\\Users\\MIKU\\My project\\first-CS-Game\\Slavic egg clamp\\assets\\scripts\\entercollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DE469FE-50EC-6852-0EDE-AD9C8D778158}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\entercollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1DE469FE-50EC-6852-0EDE-AD9C8D778158}|Assembly-CSharp.csproj|C:\\Users\\MIKU\\My project\\first-CS-Game\\Slavic egg clamp\\assets\\scripts\\interacteblecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DE469FE-50EC-6852-0EDE-AD9C8D778158}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interacteblecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DE469FE-50EC-6852-0EDE-AD9C8D778158}|Assembly-CSharp.csproj|C:\\Users\\MIKU\\My project\\first-CS-Game\\Slavic egg clamp\\assets\\scripts\\damagecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DE469FE-50EC-6852-0EDE-AD9C8D778158}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\damagecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1DE469FE-50EC-6852-0EDE-AD9C8D778158}|Assembly-CSharp.csproj|c:\\users\\miku\\my project\\first-cs-game\\slavic egg clamp\\assets\\scripts\\hero_i_can.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DE469FE-50EC-6852-0EDE-AD9C8D778158}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hero_i_can.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1DE469FE-50EC-6852-0EDE-AD9C8D778158}|Assembly-CSharp.csproj|C:\\Users\\MIKU\\My project\\first-CS-Game\\Slavic egg clamp\\assets\\scripts\\healthpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1DE469FE-50EC-6852-0EDE-AD9C8D778158}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DE469FE-50EC-6852-0EDE-AD9C8D778158}|Assembly-CSharp.csproj|C:\\Users\\MIKU\\My project\\first-CS-Game\\Slavic egg clamp\\assets\\scripts\\enter triger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DE469FE-50EC-6852-0EDE-AD9C8D778158}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enter triger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1DE469FE-50EC-6852-0EDE-AD9C8D778158}|Assembly-CSharp.csproj|C:\\Users\\MIKU\\My project\\first-CS-Game\\Slavic egg clamp\\assets\\scripts\\layerground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1DE469FE-50EC-6852-0EDE-AD9C8D778158}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\layerground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1DE469FE-50EC-6852-0EDE-AD9C8D778158}|Assembly-CSharp.csproj|C:\\Users\\MIKU\\My project\\first-CS-Game\\Slavic egg clamp\\assets\\scripts\\entercollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DE469FE-50EC-6852-0EDE-AD9C8D778158}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\entercollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1DE469FE-50EC-6852-0EDE-AD9C8D778158}|Assembly-CSharp.csproj|C:\\Users\\MIKU\\My project\\first-CS-Game\\Slavic egg clamp\\assets\\scripts\\destroyobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1DE469FE-50EC-6852-0EDE-AD9C8D778158}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\destroyobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DE469FE-50EC-6852-0EDE-AD9C8D778158}|Assembly-CSharp.csproj|C:\\Users\\MIKU\\My project\\first-CS-Game\\Slavic egg clamp\\assets\\scripts\\damagecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DE469FE-50EC-6852-0EDE-AD9C8D778158}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\damagecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DE469FE-50EC-6852-0EDE-AD9C8D778158}|Assembly-CSharp.csproj|C:\\Users\\MIKU\\My project\\first-CS-Game\\Slavic egg clamp\\assets\\scripts\\enter triger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DE469FE-50EC-6852-0EDE-AD9C8D778158}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enter triger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1DE469FE-50EC-6852-0EDE-AD9C8D778158}|Assembly-CSharp.csproj|C:\\Users\\MIKU\\My project\\first-CS-Game\\Slavic egg clamp\\assets\\scripts\\levelreturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
@@ -62,19 +70,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "EnterCollision.cs",
               "DocumentMoniker": "C:\\Users\\MIKU\\My project\\first-CS-Game\\Slavic egg clamp\\Assets\\scripts\\EnterCollision.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\EnterCollision.cs",
               "ToolTip": "C:\\Users\\MIKU\\My project\\first-CS-Game\\Slavic egg clamp\\Assets\\scripts\\EnterCollision.cs",
               "RelativeToolTip": "Assets\\scripts\\EnterCollision.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAyAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-10T16:41:20.554Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "DamageComponent.cs",
               "DocumentMoniker": "C:\\Users\\MIKU\\My project\\first-CS-Game\\Slavic egg clamp\\Assets\\scripts\\DamageComponent.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\DamageComponent.cs",
@@ -98,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Enter triger.cs",
               "DocumentMoniker": "C:\\Users\\MIKU\\My project\\first-CS-Game\\Slavic egg clamp\\Assets\\scripts\\Enter triger.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Enter triger.cs",
@@ -110,20 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Hero_input.cs",
-              "DocumentMoniker": "C:\\Users\\MIKU\\My project\\first-CS-Game\\Slavic egg clamp\\Assets\\scripts\\Hero_input.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\Hero_input.cs",
-              "ToolTip": "C:\\Users\\MIKU\\My project\\first-CS-Game\\Slavic egg clamp\\Assets\\scripts\\Hero_input.cs",
-              "RelativeToolTip": "Assets\\scripts\\Hero_input.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T16:42:16.647Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "LevelReturn.cs",
               "DocumentMoniker": "C:\\Users\\MIKU\\My project\\first-CS-Game\\Slavic egg clamp\\Assets\\scripts\\LevelReturn.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\LevelReturn.cs",
@@ -135,25 +130,64 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "LayerGround.cs",
               "DocumentMoniker": "C:\\Users\\MIKU\\My project\\first-CS-Game\\Slavic egg clamp\\Assets\\scripts\\LayerGround.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\LayerGround.cs",
               "ToolTip": "C:\\Users\\MIKU\\My project\\first-CS-Game\\Slavic egg clamp\\Assets\\scripts\\LayerGround.cs",
               "RelativeToolTip": "Assets\\scripts\\LayerGround.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-03T16:19:53.018Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InteractebleComponent.cs",
+              "DocumentMoniker": "C:\\Users\\MIKU\\My project\\first-CS-Game\\Slavic egg clamp\\Assets\\scripts\\InteractebleComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\InteractebleComponent.cs",
+              "ToolTip": "C:\\Users\\MIKU\\My project\\first-CS-Game\\Slavic egg clamp\\Assets\\scripts\\InteractebleComponent.cs",
+              "RelativeToolTip": "Assets\\scripts\\InteractebleComponent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T19:03:20.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Hero_input.cs",
+              "DocumentMoniker": "C:\\Users\\MIKU\\My project\\first-CS-Game\\Slavic egg clamp\\Assets\\scripts\\Hero_input.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Hero_input.cs",
+              "ToolTip": "C:\\Users\\MIKU\\My project\\first-CS-Game\\Slavic egg clamp\\Assets\\scripts\\Hero_input.cs",
+              "RelativeToolTip": "Assets\\scripts\\Hero_input.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T16:42:16.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SwitchComponent.cs",
+              "DocumentMoniker": "C:\\Users\\MIKU\\My project\\first-CS-Game\\Slavic egg clamp\\Assets\\scripts\\SwitchComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\SwitchComponent.cs",
+              "ToolTip": "C:\\Users\\MIKU\\My project\\first-CS-Game\\Slavic egg clamp\\Assets\\scripts\\SwitchComponent.cs",
+              "RelativeToolTip": "Assets\\scripts\\SwitchComponent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T19:50:18.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Hero_i_can.cs",
               "DocumentMoniker": "C:\\Users\\MIKU\\My project\\first-CS-Game\\Slavic egg clamp\\Assets\\scripts\\Hero_i_can.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Hero_i_can.cs",
               "ToolTip": "C:\\Users\\MIKU\\My project\\first-CS-Game\\Slavic egg clamp\\Assets\\scripts\\Hero_i_can.cs",
               "RelativeToolTip": "Assets\\scripts\\Hero_i_can.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAkwFUAAABTAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-03T16:14:32.88Z",
               "EditorCaption": ""
