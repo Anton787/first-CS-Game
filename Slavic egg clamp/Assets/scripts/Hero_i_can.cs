@@ -8,15 +8,25 @@ public class Hero_i_can : MonoBehaviour
 {
     [SerializeField] private float _speed;
     [SerializeField] private float _jumpSpeed;
+    [SerializeField] private float _damagejumpSpeed;
 
     [SerializeField] private LayerGround _groundCheck;
     [SerializeField] private HeroOut _outCheck;
 
-    private Animator m_animator;
+    private Animator _animator;
 
     private Vector2 _direction;
 
     private Rigidbody2D _rigidbody;
+
+    private static readonly int IsGroundKey = Animator.StringToHash("Grounded");
+
+    private static readonly int IsRuningKey = Animator.StringToHash("Run");
+
+    private static readonly int IsVelocityKey = Animator.StringToHash("Velocity");
+
+    private static readonly int Hit = Animator.StringToHash("Hit");
+
 
 
 
@@ -24,6 +34,7 @@ public class Hero_i_can : MonoBehaviour
     private void Awake()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
+        _animator  = GetComponent<Animator>();
     }
 
 
@@ -34,14 +45,19 @@ public class Hero_i_can : MonoBehaviour
 
     private void FixedUpdate()
     {
-        _rigidbody.velocity = new Vector2(_direction.x * _speed , _rigidbody.velocity.y);
+        _rigidbody.velocity = new Vector2(_direction.x * _speed, _rigidbody.velocity.y);
 
         var isJumping = _direction.y > 0;
-        if (isJumping && _isGround()) 
+        var isGround = _isGround();
+        if (isJumping && isGround)
         {
-            _rigidbody.AddForce(Vector2.up * _jumpSpeed , ForceMode2D.Impulse);
+            _rigidbody.AddForce(Vector2.up * _jumpSpeed, ForceMode2D.Impulse);
         }
-        
+        _animator.SetBool(IsGroundKey, isGround);
+        _animator.SetBool(IsRuningKey, _direction.x != 0);
+        _animator.SetFloat(IsVelocityKey, _rigidbody.velocity.y) ;
+
+
     }
 
     private void Update()
@@ -62,5 +78,11 @@ public class Hero_i_can : MonoBehaviour
     public void SaySomething()
     {
         Debug.Log("Something!");
+    }
+
+    public void TakeDamage()
+    {
+        _animator.SetTrigger(Hit);
+        _rigidbody.velocity = new Vector2(_rigidbody.velocity.x, _damagejumpSpeed);
     }
 }

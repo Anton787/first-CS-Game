@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 113290a549f0df349a0195b55abb5102
+guid: 6504a791ad850be4cabd9317f6531c30
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6108012597462862368
-    second: Spear_0
+      213: 6934013284892070054
+    second: Attack1_0
+  - first:
+      213: -7957278214813060823
+    second: Attack1_1
+  - first:
+      213: 1409549213185883415
+    second: Attack1_2
+  - first:
+      213: 4976274401295337057
+    second: Attack1_3
+  - first:
+      213: -5639509438907974925
+    second: Attack1_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +49,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,7 +87,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,13 +125,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Spear_0
+      name: Attack1_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 6
-        width: 44
-        height: 7
+        x: 64
+        y: 52
+        width: 34
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,8 +139,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 02a8263881504c450800000000000000
-      internalID: 6108012597462862368
+      spriteID: 6a0d4d938509a3060800000000000000
+      internalID: 6934013284892070054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack1_1
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 52
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 921fc138f91129190800000000000000
+      internalID: -7957278214813060823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack1_2
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 52
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d30619a89bf8310800000000000000
+      internalID: 1409549213185883415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack1_3
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 52
+        width: 89
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 166041ad3374f0540800000000000000
+      internalID: 4976274401295337057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack1_4
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 52
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fa7d627b007cb1b0800000000000000
+      internalID: -5639509438907974925
       vertices: []
       indices: 
       edges: []
@@ -144,7 +240,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Spear_0: 6108012597462862368
+      Attack1_0: 6934013284892070054
+      Attack1_1: -7957278214813060823
+      Attack1_2: 1409549213185883415
+      Attack1_3: 4976274401295337057
+      Attack1_4: -5639509438907974925
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
