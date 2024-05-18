@@ -1,13 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
-public class DestroyObjgect : MonoBehaviour
+namespace Assets.scripts
 {
-    [SerializeField] private GameObject _objectdestroy;
-
-    public void DestroyObject()
+    public class DestroyObjgect : MonoBehaviour
     {
-        Destroy(_objectdestroy);
+        [SerializeField] private GameObject _objectdestroy;
+
+        public void DestroyObject()
+        {
+            Destroy(_objectdestroy);
+        }
+        public void lookfor()
+        {
+             _objectdestroy.GetComponent<SpriteRenderer>().enabled = false;
+        }
+
     }
 }
+

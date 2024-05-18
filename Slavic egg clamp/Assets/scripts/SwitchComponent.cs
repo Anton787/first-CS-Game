@@ -9,13 +9,16 @@ namespace Assets.scripts
     {
         [SerializeField] private Animator _animator;
         [SerializeField] private bool _state;
-
-        private string _animationKey;
+        [SerializeField]private string _animationKey;
 
         public void Switch()
         {
             _state=!_state;
             _animator.SetBool(_animationKey, _state);
+        }
+        public void SwitchIt()
+        {
+            Switch();
         }
     }
 
