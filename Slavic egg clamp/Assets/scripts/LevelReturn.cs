@@ -2,14 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
-public class LevelReturn : MonoBehaviour
+namespace Assets.scripts
 {
-
-    public void Reload()
+    public class LevelReturn : MonoBehaviour
     {
-        var scene=SceneManager.GetActiveScene();
-        SceneManager.LoadScene(scene.name);
+
+        public void Reload()
+        {
+            var scene = SceneManager.GetActiveScene();
+            SceneManager.LoadScene(scene.name);
+        }
+
     }
 
 }
+

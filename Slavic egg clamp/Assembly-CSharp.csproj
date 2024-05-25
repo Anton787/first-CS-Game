@@ -98,7 +98,9 @@
     <Compile Include="Assets\Textures\Cainos\Third Party\Lucid Editor\Runtime\Attributes\DisableLucidEditorAttribute.cs" />
     <Compile Include="Assets\Textures\Cainos\Third Party\Lucid Editor\Runtime\Attributes\RequiredAttribute.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Shared\Models\UnityCharacter\Scripts\CharacterMovement2D.cs" />
+    <Compile Include="Assets\Settings\Scenes\PlayerData.cs" />
     <Compile Include="Assets\Textures\Cainos\Third Party\Lucid Editor\Runtime\Attributes\DisableInEditModeAttribute.cs" />
+    <Compile Include="Assets\scripts\Creature.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Scenes\2D\LoseSightWhenTargetsFallsOffThePlatform.cs" />
     <Compile Include="Assets\Textures\Cainos\Third Party\Lucid Editor\Runtime\Attributes\EnableIfAttribute.cs" />
     <Compile Include="Assets\scripts\DeleteComponent(Animation).cs" />
@@ -111,6 +113,7 @@
     <Compile Include="Assets\Textures\Cainos\Third Party\Lucid Editor\Runtime\Attributes\HideLabelAttribute.cs" />
     <Compile Include="Assets\Textures\Cainos\Third Party\Lucid Editor\Runtime\Attributes\BoxGroupAttribute.cs" />
     <Compile Include="Assets\Textures\Cainos\Third Party\Lucid Editor\Runtime\Attributes\AssetsOnlyAttribute.cs" />
+    <Compile Include="Assets\scripts\MobAi.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Shared\Scripts\InvokeEventFromInspector.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Shared\Scripts\ExampleHelpWindow.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Scenes\DualTarget\MoveAimTarget.cs" />
@@ -119,6 +122,7 @@
     <Compile Include="Assets\scripts\EnterCollision.cs" />
     <Compile Include="Assets\Textures\Cainos\Third Party\Lucid Editor\Runtime\PropertyGroupAttribute.cs" />
     <Compile Include="Assets\scripts\DestroyObject.cs" />
+    <Compile Include="Assets\scripts\SaveMe.cs" />
     <Compile Include="Assets\scripts\Hero_input.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Shared\Models\UnityCharacter\Scripts\CharacterMovementNoCamera.cs" />
     <Compile Include="Assets\Textures\Cainos\Third Party\Lucid Editor\Runtime\Attributes\ShowInInspectorAttribute.cs" />
@@ -131,15 +135,19 @@
     <Compile Include="Assets\Textures\Cainos\Pixel Art Platformer - Village Props\Script\Chest.cs" />
     <Compile Include="Assets\Textures\Cainos\Third Party\Lucid Editor\Runtime\Attributes\FoldoutGroupAttribute.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Scenes\Trigger volumes\GenericTrigger.cs" />
+    <Compile Include="Assets\Settings\Scenes\GameSession.cs" />
     <Compile Include="Assets\Textures\Cainos\Third Party\Lucid Editor\Runtime\Attributes\GUIColorAttribute.cs" />
     <Compile Include="Assets\Textures\Cainos\Third Party\Lucid Editor\Runtime\Attributes\HelpBoxIfAttribute.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Shared\Scripts\SimpleElevator.cs" />
     <Compile Include="Assets\Textures\Cainos\Third Party\Lucid Editor\Runtime\Attributes\ReadOnlyAttribute.cs" />
+    <Compile Include="Assets\scripts\ExitLevelComponent.cs" />
+    <Compile Include="Assets\scripts\CheckCircleOwerlap.cs" />
     <Compile Include="Assets\Textures\Cainos\Third Party\Lucid Editor\Runtime\Attributes\DisableInPlayModeAttribute.cs" />
     <Compile Include="Assets\Textures\Cainos\Third Party\Lucid Editor\Runtime\Attributes\ShowIfAttribute.cs" />
     <Compile Include="Assets\Textures\Cainos\Third Party\Lucid Editor\Runtime\Attributes\IndentAttribute.cs" />
-    <Compile Include="Assets\scripts\DamageComponent.cs" />
+    <Compile Include="Assets\scripts\ExitFirstLeevel.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Scenes\CameraMagnets\CameraMagnetTargetController.cs" />
+    <Compile Include="Assets\scripts\ModifyHealthComponent.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Scenes\Scripting\ScriptingExample.cs" />
     <Compile Include="Assets\Textures\Cainos\Third Party\Lucid Editor\Runtime\Enum.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Shared\Scripts\MixingCameraBlend.cs" />

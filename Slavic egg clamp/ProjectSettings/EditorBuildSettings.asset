@@ -6,8 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Textures/karsiori/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/First scene/FirstScene.unity
+    guid: b96dd0cdb21d65346898e3cb5c2195a3
+  - enabled: 1
+    path: Assets/Scenes/SecondScenes/SecondScenes.unity
+    guid: 4bd3f8798551a3c45a11f951af12c973
+  - enabled: 1
+    path: Assets/Scenes/ThreeScene/ThreeScene.unity
+    guid: 879f39964d4caf744a061563130ccdc4
+  - enabled: 1
+    path: Assets/Scenes/FourScene/FourScene.unity
+    guid: 704ccbd93b734d243bccbe4758de7546
+  - enabled: 1
+    path: Assets/Scenes/FiveScene/FiveScene.unity
+    guid: f8cc6f5cc963aff4c848f732fdd086a3
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: b85ee301c9b82ca418fa52b852c22730, type: 2}
   m_UseUCBPForAssetBundles: 0
