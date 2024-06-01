@@ -26,10 +26,10 @@ namespace Assets.scripts
             return overlaps.ToArray();
         }
 
-        private void OnDrawGizmosSelected()
-        {
-            Handles.DrawSolidDisc(transform.position,Vector3.forward,_radius);
-        }
+        //private void OnDrawGizmosSelected()
+        //{
+        //    Handles.DrawSolidDisc(transform.position,Vector3.forward,_radius);
+        //}
     }
 }
 

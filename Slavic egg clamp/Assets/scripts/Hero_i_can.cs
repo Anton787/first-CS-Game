@@ -18,7 +18,7 @@ namespace Assets.scripts
        // [SerializeField] private float _jumpSpeed;
         //[SerializeField] private float _damagejumpSpeed;
         //[SerializeField] private int _damage;
-        [SerializeField] private LayerGround _groundCheck;
+        //[SerializeField] private LayerGround _groundCheck;
         //[SerializeField] private CheckCircleOwerlap _attackRange;
 
 
@@ -90,12 +90,12 @@ namespace Assets.scripts
          //   var yVelocity = CalculateYVelocity();
          //   _rigidbody.velocity = new Vector2(xVelocity, yVelocity);
 
-         //   _animator.SetBool(IsGroundKey, _isGrounded);
-         //   _animator.SetBool(IsRuningKey, _direction.x != 0);
-         //   _animator.SetFloat(IsVelocityKey, _rigidbody.velocity.y);
+            //_animator.SetBool(IsGroundKey, _isGrounded);
+            //_animator.SetBool(IsRuningKey, _direction.x != 0);
+            //_animator.SetFloat(IsVelocityKey, _rigidbody.velocity.y);
 
 
-       // }
+        //}
        
         protected override float CalculateYVelocity()
         {
@@ -144,19 +144,19 @@ namespace Assets.scripts
         protected override void Update()
         {
             base.Update();
-            _isGrounded = _isGround();
-            if (_direction.x > 0)
-                transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
-            else if (_direction.x < 0)
-                transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
+            //_isGrounded = _isGround();
+            //if (_direction.x > 0)
+            //    transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
+           // else if (_direction.x < 0)
+             //   transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
         }
 
 
 
-        private bool _isGround()
-        {
-            return _groundCheck.IsTouchingLayer;
-        }
+        //private bool _isGround()
+        //{
+        //    return _groundCheck.IsTouchingLayer;
+        //}
 
         public void interacted()
         {

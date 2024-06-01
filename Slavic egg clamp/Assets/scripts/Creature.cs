@@ -12,9 +12,10 @@ namespace Assets.scripts
         [SerializeField] protected float _jumpSpeed;
         [SerializeField] private float _damagejumpSpeed;
         [SerializeField] private int _damage;
+        [SerializeField] public LayerGround _groundCheck;
 
 
-       
+
 
         [SerializeField] private CheckCircleOwerlap _attackRange;
 
@@ -49,8 +50,12 @@ namespace Assets.scripts
 
         protected virtual void Update() 
         {
-            
-            
+            _isGrounded = _isGround();
+            if (_direction.x > 0)
+                transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
+            else if (_direction.x < 0)
+                transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
+
         }
 
         private void FixedUpdate()
@@ -69,7 +74,7 @@ namespace Assets.scripts
         protected virtual float CalculateYVelocity()
         {
 
-            //_rigidbody.velocity = new Vector2(_direction.x * _speed, _rigidbody.velocity.y);
+            
 
             var isJumpPressing = _direction.y > 0;
 
@@ -79,7 +84,7 @@ namespace Assets.scripts
             {
                 var isFalling = _rigidbody.velocity.y <= 0.001f;
                 yVelocity = isFalling ? CalculateJumpVelocity(yVelocity): yVelocity ;
-                //_rigidbody.AddForce(Vector2.up * _jumpSpeed, ForceMode2D.Impulse);
+                
             }
             else if (_rigidbody.velocity.y > 0)
             {
@@ -124,6 +129,10 @@ namespace Assets.scripts
                     hp.ModifyHealthe(-_damage);
                 }
             }
+        }
+        private bool _isGround()
+        {
+            return _groundCheck.IsTouchingLayer;
         }
 
     }

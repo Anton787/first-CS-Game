@@ -14,6 +14,7 @@ namespace Assets.scripts
         [SerializeField] private UnityEvent _onHeal;
         [SerializeField] private UnityEvent _onDie;
         [SerializeField] private HealthChangeEvent _onChange;
+        [SerializeField] private int _creap;
 
 
         public void ModifyHealthe(int helthDelta)
@@ -35,7 +36,8 @@ namespace Assets.scripts
 
             if (_health <= 0)
             {
-                _onDie?.Invoke();      
+                _onDie?.Invoke();
+                _health += 3;
             }
         }
 
@@ -43,12 +45,17 @@ namespace Assets.scripts
         private void Update()
         {
             _onChange?.Invoke(_health);
+            if (_health > 3 && _creap==0)
+            {
+                _health -= 1;
+            }
         }
 
 
         public void SetHealth(int health)
         {
             _health = health;
+            
         }
 
         [Serializable]

@@ -11,6 +11,7 @@ namespace Assets.scripts
         {
             var scene = SceneManager.GetActiveScene();
             SceneManager.LoadScene(scene.name);
+            
         }
 
     }

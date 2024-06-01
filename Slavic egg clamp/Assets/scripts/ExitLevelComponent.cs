@@ -9,8 +9,10 @@ namespace Assets.scripts
         [SerializeField] private string _sceneName;
         public void Exitó()
         {
-            
+            Time.timeScale = 1f;
+            Cursor.lockState = CursorLockMode.None;
             SceneManager.LoadScene(_sceneName);
+
         }
     }
 }

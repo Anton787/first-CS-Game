@@ -11,7 +11,7 @@ namespace Assets.scripts
 
         [SerializeField] private LayerGround _vision;
         [SerializeField] private LayerGround _canAttack;
-        [SerializeField] private float _alarmTime;
+        [SerializeField] private float _alarmTime = 0.5f;
 
         private Coroutine _current;
         private GameObject _target;
@@ -25,6 +25,8 @@ namespace Assets.scripts
         {
             StartState(Patrolling());
         }
+
+
 
         public void OnHeroInVision (GameObject go)
         {
@@ -54,6 +56,7 @@ namespace Assets.scripts
         { 
             var direction=_target.transform.position - transform.position;
             direction.y = 0;
+
             _creature.SetDirection(direction);
         
         }
@@ -64,11 +67,12 @@ namespace Assets.scripts
 
         private void StartState(IEnumerator coroutine)
         {
-            if (coroutine != null) 
-            
+            if (coroutine != null)
+
             {
                 StopCoroutine(_current);
             }
+            
             _current= StartCoroutine(coroutine);
             
         }

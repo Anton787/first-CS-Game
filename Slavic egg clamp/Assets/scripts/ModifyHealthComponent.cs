@@ -14,9 +14,13 @@ namespace Assets.scripts
         {
             var _health = target.GetComponent<HealthPoint>();
             if (_health != null)
-            { 
-                _health.ModifyHealthe(_hpDelta); 
+            {
+
+                    _health.ModifyHealthe(_hpDelta);
+                
+                
             }
+            
         }
         
     }

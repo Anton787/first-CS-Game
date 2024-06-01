@@ -11,6 +11,8 @@ namespace Assets.scripts
         public PlayerData data => _data;
         private void Awake()
         {
+
+
             DontDestroyOnLoad(this);
             if (IsSessionExit()) 
             {
