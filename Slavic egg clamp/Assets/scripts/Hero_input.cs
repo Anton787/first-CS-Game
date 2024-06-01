@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.VersionControl;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -28,6 +27,14 @@ namespace Assets.scripts
             if (context.canceled)
             {
                 _hero.interacted();
+            }
+        }
+
+        public void OnAttack(InputAction.CallbackContext context)
+        {
+            if (context.canceled)
+            {
+                _hero.Attacked();
             }
         }
 
